@@ -1,0 +1,143 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BerriedDelight
+build_property.RootNamespace = BerriedDelight
+build_property.ProjectDir = D:\Parth's Drive\WelTec\IT level 7\SD7501\SD7501 Assignments\SD7501_Assignment2_2220145\BerriedDelight\BerriedDelight\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Parth's Drive\WelTec\IT level 7\SD7501\SD7501 Assignments\SD7501_Assignment2_2220145\BerriedDelight\BerriedDelight
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Pages/CheckoutCompletePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRDb21wbGV0ZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Pages/CheckoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Pages/Shared/_PageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Admin/AdminBerries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5CZXJyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Berry/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVycnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Berry/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVycnlcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Berry/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVycnlcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Order/CheckoutComplete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXRDb21wbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Order/ViewOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcVmlld09yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Shared/Components/CategoryMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlNZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Shared/Components/ShoppingCartSummary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvcHBpbmdDYXJ0U3VtbWFyeVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Shared/_BerryCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CZXJyeUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Shared/_Carousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Parth's Drive/WelTec/IT level 7/SD7501/SD7501 Assignments/SD7501_Assignment2_2220145/BerriedDelight/BerriedDelight/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

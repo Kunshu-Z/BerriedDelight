@@ -1,0 +1,44 @@
+﻿@model Berry
+
+<!-- To display content for each berry item -->
+<div class="col">
+    <div class="card berry-card">
+        <a asp-controller="Berry" asp-action="Details" asp-route-id="@Model.BerryId" class="berry-link">
+            <img src="@Model.ImageThumbnailUrl" class="card-img-top berry-image" alt="@Model.Name">
+        </a>
+        <div class="card-body berry-button">
+            <h4 class="d-grid">
+                <a class="btn btn-secondary" asp-controller="ShoppingCart"
+                   asp-action="AddToShoppingCart"
+                   asp-route-berryId="@Model.BerryId"> + Add to cart</a>
+            </h4>
+
+            <div class="d-flex justify-content-between mt-2">
+                <h2 class="text-start">
+                    <a asp-controller="Berry"
+                       asp-action="Details"
+                       asp-route-id="@Model.BerryId"
+                       class="berry-link">@Model.Name</a>
+                </h2>
+                <h5 class="text-nowrap">
+                    @Model.Price.ToString("c")
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CSS to handle image hover effect -->
+<style>
+    .berry-card {
+        overflow: hidden; /* Ensure the image doesn't overflow outside the card */
+    }
+
+    .berry-image {
+        transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+    }
+
+        .berry-image:hover {
+            transform: scale(1.1); /* Scale the image to 110% on hover */
+        }
+</style>

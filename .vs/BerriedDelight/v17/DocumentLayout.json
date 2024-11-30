@@ -1,0 +1,947 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\admin\\adminberries.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\admin\\adminberries.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\order\\vieworders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\order\\vieworders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\berryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\berryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\berry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\berry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\iberryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\iberryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\berry\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\berry\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\shared\\_berrycard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\shared\\_berrycard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\berry\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\berry\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\berry\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\berry\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\parth\\AppData\\Local\\Temp\\oxdq0sgt..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\controllers\\berrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\controllers\\berrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\controllers\\api\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\controllers\\api\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\ishoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\ishoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\viewmodels\\berrylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\viewmodels\\berrylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\shared\\components\\shoppingcartsummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\shared\\components\\shoppingcartsummary\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\components\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\components\\categorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\pages\\shared\\_pagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\pages\\shared\\_pagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\pages\\checkoutpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\pages\\checkoutpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\pages\\checkoutcompletepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\pages\\checkoutcompletepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\pages\\checkoutcompletepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\pages\\checkoutcompletepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\pages\\checkoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\pages\\checkoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\components\\shoppingcartsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\components\\shoppingcartsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\models\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\models\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\viewmodels\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\viewmodels\\shoppingcartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\taghelpers\\emailtaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\taghelpers\\emailtaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\migrations\\20240412052401_addshoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\migrations\\20240412052401_addshoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\migrations\\berrieddelightdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\migrations\\berrieddelightdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|d:\\parth\u0027s drive\\weltec\\it level 7\\sd7501\\sd7501 assignments\\sd7501_assignment2_2220145\\berrieddelight\\berrieddelight\\migrations\\20240528041055_identityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4FAF71-10F4-490F-A5A7-36A015FDFCBC}|BerriedDelight\\BerriedDelight.csproj|solutionrelative:berrieddelight\\migrations\\20240528041055_identityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminBerries.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Admin\\AdminBerries.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Admin\\AdminBerries.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Admin\\AdminBerries.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Admin\\AdminBerries.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T21:55:39.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BerryRepository.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\BerryRepository.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\BerryRepository.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\BerryRepository.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\BerryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:57:54.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Program.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Program.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Program.cs",
+              "RelativeToolTip": "BerriedDelight\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAABAPQAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:24:12.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewOrders.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Order\\ViewOrders.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Order\\ViewOrders.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Order\\ViewOrders.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Order\\ViewOrders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T01:54:46.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BerriedDelight\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T04:10:44.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T09:39:26.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\OrderRepository.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\OrderRepository.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\OrderRepository.cs",
+              "ViewState": "AQIAAAIAAADAAwAAAAAmwAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:18:54.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Berry.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\Berry.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\Berry.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\Berry.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\Berry.cs",
+              "ViewState": "AQIAAAIAAACg//////8wwAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:33:06.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBerryRepository.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\IBerryRepository.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\IBerryRepository.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\IBerryRepository.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\IBerryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:57:32.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\IOrderRepository.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\IOrderRepository.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:13:35.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T02:56:19.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T02:55:26.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Berry\\Search.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Berry\\Search.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Berry\\Search.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Berry\\Search.cshtml",
+              "ViewState": "AQIAABYAAAAAl5mZmZkBwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T05:14:54.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_BerryCard.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\_BerryCard.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Shared\\_BerryCard.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\_BerryCard.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Shared\\_BerryCard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T05:09:56.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BerriedDelight\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BerriedDelight\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAANITAAAAkJmZmZn5v5cTAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T23:24:19.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Carousel.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Shared\\_Carousel.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Shared\\_Carousel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T05:15:59.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Berry\\List.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Berry\\List.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Berry\\List.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Berry\\List.cshtml",
+              "ViewState": "AQIAAA0AAAAANzMzMzMLwCsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T01:50:23.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T09:06:02.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Berry\\Details.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Berry\\Details.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Berry\\Details.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Berry\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T00:53:45.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T05:55:26.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T04:47:18.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\parth\\AppData\\Local\\Temp\\oxdq0sgt..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-05T02:34:37.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T09:31:21.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T06:05:10.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BerryController.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\BerryController.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Controllers\\BerryController.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\BerryController.cs",
+              "RelativeToolTip": "BerriedDelight\\Controllers\\BerryController.cs",
+              "ViewState": "AQIAAB4AAAAAmpmZmZn5vy4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:45:39.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\Api\\SearchController.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Controllers\\Api\\SearchController.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\Api\\SearchController.cs",
+              "RelativeToolTip": "BerriedDelight\\Controllers\\Api\\SearchController.cs",
+              "ViewState": "AQIAAAIAAACAMjMzMzMrwCsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T04:29:23.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\ShoppingCart.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAkwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:27:22.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IShoppingCart.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\IShoppingCart.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\IShoppingCart.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\IShoppingCart.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\IShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:25:19.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "BerriedDelight\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAAsAAABAZmZmZmYowB8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:53:46.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BerriedDelight\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T01:13:04.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\Order.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\Order.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\Order.cs",
+              "ViewState": "AQIAABMAAAAACAAAAAAAwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T04:46:00.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BerryListViewModel.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ViewModels\\BerryListViewModel.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\ViewModels\\BerryListViewModel.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ViewModels\\BerryListViewModel.cs",
+              "RelativeToolTip": "BerriedDelight\\ViewModels\\BerryListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T02:46:36.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Shared\\Components\\ShoppingCartSummary\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T08:58:35.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\Category.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\Category.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:52:33.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\ICategoryRepository.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:42:05.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CategoryMenu.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Components\\CategoryMenu.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Components\\CategoryMenu.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Components\\CategoryMenu.cs",
+              "RelativeToolTip": "BerriedDelight\\Components\\CategoryMenu.cs",
+              "ViewState": "AQIAAAEAAADAMjMzMzMrwAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T09:04:33.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T01:20:18.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABMAAABAYmZmZmYkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T23:38:42.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240528041055_IdentityAdded.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Migrations\\20240528041055_IdentityAdded.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Migrations\\20240528041055_IdentityAdded.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Migrations\\20240528041055_IdentityAdded.cs",
+              "RelativeToolTip": "BerriedDelight\\Migrations\\20240528041055_IdentityAdded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T04:10:55.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T04:25:14.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "BerriedDelight\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "BerriedDelight\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-28T04:14:48.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CheckoutPage.cshtml.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutPage.cshtml.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Pages\\CheckoutPage.cshtml.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutPage.cshtml.cs",
+              "RelativeToolTip": "BerriedDelight\\Pages\\CheckoutPage.cshtml.cs",
+              "ViewState": "AQIAAA0AAAAAmJmZmZklwCQAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:17:25.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_PageLayout.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\Shared\\_PageLayout.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Pages\\Shared\\_PageLayout.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\Shared\\_PageLayout.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Pages\\Shared\\_PageLayout.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAIwF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:21:58.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:23:04.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:23:28.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CheckoutCompletePage.cshtml.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "RelativeToolTip": "BerriedDelight\\Pages\\CheckoutCompletePage.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:20:14.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CheckoutCompletePage.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutCompletePage.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Pages\\CheckoutCompletePage.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutCompletePage.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Pages\\CheckoutCompletePage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:19:21.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CheckoutPage.cshtml",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutPage.cshtml",
+              "RelativeDocumentMoniker": "BerriedDelight\\Pages\\CheckoutPage.cshtml",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Pages\\CheckoutPage.cshtml",
+              "RelativeToolTip": "BerriedDelight\\Pages\\CheckoutPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:13:53.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\libman.json",
+              "RelativeDocumentMoniker": "BerriedDelight\\libman.json",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\libman.json",
+              "RelativeToolTip": "BerriedDelight\\libman.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T06:16:28.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ShoppingCartSummary.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Components\\ShoppingCartSummary.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Components\\ShoppingCartSummary.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Components\\ShoppingCartSummary.cs",
+              "RelativeToolTip": "BerriedDelight\\Components\\ShoppingCartSummary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:56:23.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Models\\CategoryRepository.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Models\\CategoryRepository.cs",
+              "RelativeToolTip": "BerriedDelight\\Models\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T06:34:21.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ShoppingCartViewModel.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ViewModels\\ShoppingCartViewModel.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\ViewModels\\ShoppingCartViewModel.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ViewModels\\ShoppingCartViewModel.cs",
+              "RelativeToolTip": "BerriedDelight\\ViewModels\\ShoppingCartViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:56:22.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "BerriedDelight\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AQIAAAAAAADsMTMzMzMbwAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T01:15:36.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EmailTagHelper.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\TagHelpers\\EmailTagHelper.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\TagHelpers\\EmailTagHelper.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\TagHelpers\\EmailTagHelper.cs",
+              "RelativeToolTip": "BerriedDelight\\TagHelpers\\EmailTagHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T09:34:36.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240412052401_AddShoppingCartItem.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Migrations\\20240412052401_AddShoppingCartItem.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Migrations\\20240412052401_AddShoppingCartItem.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Migrations\\20240412052401_AddShoppingCartItem.cs",
+              "RelativeToolTip": "BerriedDelight\\Migrations\\20240412052401_AddShoppingCartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:24:01.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BerriedDelight\\appsettings.Development.json",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\appsettings.Development.json",
+              "RelativeToolTip": "BerriedDelight\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T06:16:27.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "BerriedDelightDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Migrations\\BerriedDelightDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Migrations\\BerriedDelightDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Migrations\\BerriedDelightDbContextModelSnapshot.cs",
+              "RelativeToolTip": "BerriedDelight\\Migrations\\BerriedDelightDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T02:21:10.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "BerriedDelight\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Parth\u0027s Drive\\WelTec\\IT level 7\\SD7501\\SD7501 Assignments\\SD7501_Assignment2_2220145\\BerriedDelight\\BerriedDelight\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "BerriedDelight\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T09:29:54.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+﻿<div class="my-5 text-center">
+    <h3 class="mb-4">
+        Please enter your search query below:
+    </h3>
+    <div class="d-inline-block">
+        <div class="input-group">
+            <input id="txtBerryName" type="text" class="form-control" />
+            <button id="searchButton" class="btn btn-secondary">Search</button>
+        </div>
+    </div>
+</div>
+<div id="searchResultsMessage" class="text-center mt-4" style="display: none;">
+</div>
+<div class="table-responsive">
+    <table id="tblBerries" cellpadding="0" cellspacing="0" class="table table-centered">
+        <tbody></tbody>
+    </table>
+</div>
+<div id="noResultsMessage" class="text-center mt-4" style="display: none;">
+</div>
+
+<!-- Additional Javascript to search berry contents according to the search term -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#searchButton").click(function () {
+            var searchQuery = $.trim($("#txtBerryName").val());
+            $("tbody").html("");
+            $("#searchResultsMessage").hide();
+            $("#noResultsMessage").hide();
+            $.ajax({
+                type: "POST",
+                url: "/api/Search",
+                data: "\"" + searchQuery + "\"",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (berries) {
+                    if (berries.length === 0) {
+                        $("#noResultsMessage").text('"' + searchQuery + '" does not bring any results. Please try again.').show();
+                    } else {
+                        $("#searchResultsMessage").text('Search results for "' + searchQuery + '":').show();
+                        $.each(berries, function (i, berry) {
+                            $("tbody").append($("<tr>"));
+                            var appendElement = $("tbody tr").last();
+                            appendElement.append($("<td class='align-middle'>").html('<a href="/Berry/Details/' + berry.berryId + '"><img src=' + berry.imageThumbnailUrl + ' width=250 class="rounded m-2"></a>'));
+                            appendElement.append($("<td class='align-middle'>").html('<h2><a href="/Berry/Details/' + berry.berryId + '" class="berry-link">' + berry.name + '</a></h2>'));
+                        });
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr);
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    .table-centered {
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        table-layout: fixed;
+    }
+
+        /* Ensuring the rows use flexbox */
+        .table-centered tr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .table-centered td {
+            display: flex;
+            align-items: center;
+        }
+
+            .table-centered td.align-middle {
+                justify-content: center;
+            }
+
+        /* To adjust the space between the image and text */
+        .table-centered img {
+            margin-right: 10px;
+        }
+
+    .input-group {
+        justify-content: center;
+        display: flex;
+    }
+
+    .form-control {
+        width: auto;
+    }
+
+    .input-group button {
+        margin-left: 10px;
+    }
+</style>

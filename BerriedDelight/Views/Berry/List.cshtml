@@ -1,0 +1,66 @@
+﻿@model BerryListViewModel
+
+<!--Bootstrap container to align the title and filter icon-->
+<div class="container">
+    <div class="row align-items-center mb-3">
+        <div class="col">
+            <h1>@Model.CurrentCategory</h1>
+        </div>
+        <div class="col text-end">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!--SVG icon for a standard filter icon-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+                        <path d="M1.5 1.5a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 .4.8L9.5 8.043V12.5a.5.5 0 0 1-.8.4L6 10.903V8.043L1.9 1.8a.5.5 0 0 1 .4-.8zM2.614 2l3.451 5.63a.5.5 0 0 1 .1.29v2.61l1.69 1.268V7.92a.5.5 0 0 1 .1-.29L13.386 2H2.614z" />
+                    </svg>
+                </button>
+                <!--Dropdown menu contents within filter button-->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#" onclick="setFilter(event, 'name_asc')">Name Ascending</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="setFilter(event, 'name_desc')">Name Descending</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="setFilter(event, 'price_asc')">Price Ascending</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="setFilter(event, 'price_desc')">Price Descending</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Form to filter items according to Name or Price (Asc or Desc)-->
+<form id="sortForm" method="get">
+    <input type="hidden" name="category" value="@Model.CurrentCategory" />
+    <input type="hidden" name="categorizeBy" id="categorizeBy" value="@Model.CategorizeBy" />
+</form>
+
+<div id="berriesContainer" class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var berry in Model.Berries)
+    {
+        <partial name="_BerryCard" model="berry" />
+    }
+</div>
+
+<!--Centered note beneath the berry contents-->
+<div class="text-center mt-4">
+    <h2>Note: All berries are sold in packs of 10</h2>
+</div>
+
+<!--Additional Javascript to process filter-->
+<script>
+    function setFilter(event, filter) {
+        // To prevent the default link action
+        event.preventDefault();
+        document.getElementById("categorizeBy").value = filter;
+        $.ajax({
+            type: "GET",
+            url: "@Url.Action("List", "Berry")",
+            data: $("#sortForm").serialize(),
+            success: function (response) {
+                $("#berriesContainer").html($(response).find("#berriesContainer").html());
+                $(".text-center.mt-4").html($(response).find(".text-center.mt-4").html());
+            },
+            error: function (xhr, status, error) {
+                console.log(xhr);
+            }
+        });
+    }
+</script>

@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Berried Delight</title>
+    <link href='https://fonts.googleleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <base href="/" />
+    <!--Style tags to ensure footer is formatted correctly on each page-->
+    <style>
+        html, body {
+            height: 100%;
+            display: flex;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .footer-container {
+            max-width: 1140px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <!--Navbar contents + logo-->
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark"
+                 aria-label="Berried Delight navigation header">
+                <div class="container-xl">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                        <img src="images/berrieddelightlogo.png" width="151" height="47" class="d-inline-block align-top mb-2 mt-1"
+                             alt="Berried Delight Logo">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <vc:category-menu> </vc:category-menu>
+
+                            <li class="nav-item">
+                                <a asp-controller="Contact" asp-action="Index" class="nav-link">Contact Us</a>
+                            </li>
+                            <!--If statment to show Admin Page if UserId matches-->
+                            @if (User.Identity.IsAuthenticated && ((System.Security.Claims.ClaimsIdentity)User.Identity).FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value == "02150132-2f24-4b5c-8d80-3724b65dd8a8")
+                            {
+                                <li class="nav-item">
+                                    <a asp-controller="Admin" asp-action="AdminBerries" class="nav-link">Admin Page</a>
+                                </li>
+                            }
+                        </ul>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Berry" asp-action="Search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <vc:shopping-cart-summary> </vc:shopping-cart-summary>
+                        <partial name="_LoginPartial" />
+                    </div>
+                </div>
+            </nav>
+        </header>
+        @RenderBody()
+        <!--To ensure login & register pages which define an extra section appear on the layout-->
+        @RenderSection("Scripts", required: false)
+    </div>
+
+    <!--Footer Section-->
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        <div class="footer-container">
+            <p>&copy; 2024 Berried Delight. All rights reserved.</p>
+            <p>66 Slum Avenue, Crimson City</p>
+            <p>Email: info@berrieddelight.com | Phone: 0800666444</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+﻿@model HomeViewModel
+
+<partial name="_Carousel"/>
+
+<div class="text-center">
+    <h1>Welcome to Berried Delight</h1>
+    <h5>View our current selection of popular berries!</h5>
+
+    <div class="row berries-of-the-week">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var berry in Model.PopularBerries)
+            {
+                <partial name="_BerryCard" model="berry" />
+            }
+        </div>
+
+    </div>
+</div>

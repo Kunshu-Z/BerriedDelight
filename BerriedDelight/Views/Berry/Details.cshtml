@@ -1,0 +1,21 @@
+﻿@model Berry
+<h1 class="my-5 text-center">
+    @Model.Name
+</h1>
+
+<div class="row gx-5">
+    <img alt="@Model.Name" src="@Model.ImageThumbnailUrl" class="img-fluid col-5" />
+    <div class="col-7">
+        <h2>Description</h2>
+        <p>@Model.Description</p>
+        <h2>Recommended Recipe</h2>
+        <p>@Html.Raw(Model.RecommendedRecipie)</p>
+        <h3 class="pull-right">@Model.Price.ToString("c")</h3>
+        <div class="addToCart">
+            <p class="button">
+                <a class="btn btn-secondary" asp-controller="ShoppingCart" asp-action="AddToShoppingCart"
+                asp-route-berryId="@Model.BerryId">Add to cart</a>
+            </p>
+        </div>
+    </div>
+</div>

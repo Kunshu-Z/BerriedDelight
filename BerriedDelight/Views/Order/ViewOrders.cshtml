@@ -1,0 +1,58 @@
+﻿<!--Parth Talwar-->
+@model IEnumerable<BerriedDelight.Models.Order>
+<!--View Orders page to display all orders to user-->
+@{
+    ViewData["Title"] = "View Orders";
+}
+
+<h2 style="text-align: center;">View Order History</h2>
+
+<div class="accordion" id="ordersAccordion">
+    @foreach (var order in Model)
+    {
+        <!--Collapsing dropboxes for aesthetics-->
+        var collapseId = $"collapse{order.OrderId}";
+        var headingId = $"heading{order.OrderId}";
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="@headingId">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#@collapseId" aria-expanded="false" aria-controls="@collapseId">
+                    Order ID: @order.OrderId
+                </button>
+            </h2>
+            <div id="@collapseId" class="accordion-collapse collapse" aria-labelledby="@headingId" data-bs-parent="#ordersAccordion">
+                <div class="accordion-body">
+                    <table class="table table-bordered">
+                        <!--Table headings-->
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Order Total</th>
+                                <th>Order Placed</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <!--Table contents-->
+                        <tbody>
+                            <tr>
+                                <td>@order.FirstName</td>
+                                <td>@order.LastName</td>
+                                <td>@order.OrderTotal</td>
+                                <td>@order.OrderPlaced</td>
+                                <!--Button to delete order from database-->
+                                <td>
+                                    <a asp-action="DeleteOrders" asp-route-id="@order.OrderId" class="btn btn-danger">Delete Order</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<!--Bootstrap and JS referenes for added functionality-->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>

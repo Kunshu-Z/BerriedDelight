@@ -1,0 +1,389 @@
+﻿<!--Parth Talwar-->
+<!--AdminBerries page to display to the Admin only-->
+
+<style>
+    .table td {
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+</style>
+
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@using Newtonsoft.Json
+@model IEnumerable<BerriedDelight.Models.Berry>
+
+<!--Program will only grant admin options to the user with the matching userId-->
+@if (User.Identity.IsAuthenticated && ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.NameIdentifier)?.Value == "02150132-2f24-4b5c-8d80-3724b65dd8a8")
+{
+    <h1 style="text-align: center;">Modify Berry Table</h1>
+    <!--Creating the Berry Modal-->
+    <div class="modal" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="createModalLabel" style="text-align: center;">Create Berry</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="hideCreateForm()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="createForm" onsubmit="return validateCreateForm()" method="post" action="/Admin/CreateBerry">
+                        <div class="form-group">
+                            <label for="Name">Name</label>
+                            <input type="text" name="Name" id="Name" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Description">Description</label>
+                            <input type="text" name="Description" id="Description" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Price">Price</label>
+                            <input type="text" name="Price" id="Price" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="ImageUrl">Image URL</label>
+                            <input type="text" name="ImageUrl" id="ImageUrl" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="ImageThumbnailUrl">Image Thumbnail URL</label>
+                            <input type="text" name="ImageThumbnailUrl" id="ImageThumbnailUrl" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="RecommendedRecipie">Recommended Recipe</label>
+                            <input type="text" name="RecommendedRecipie" id="RecommendedRecipie" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="InStock">In Stock</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="InStock" id="createInStock" class="form-check-input" />
+                                <label class="form-check-label" for="createInStock">In Stock</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="IsPopularBerry">Is Popular Berry</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="IsPopularBerry" id="createIsPopularBerry" class="form-check-input" />
+                                <label class="form-check-label" for="createIsPopularBerry">Is Popular Berry</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="CategoryId">Category ID</label>
+                            <input type="text" name="CategoryId" id="CategoryId" class="form-control" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="hideCreateForm()">Cancel</button>
+                    <button type="submit" form="createForm" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Editing the Berry Modal-->
+    <div class="modal" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="editModalLabel" style="text-align: center;">Edit Berry</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="hideEditForm()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm" onsubmit="return validateEditForm()" method="post" action="/Admin/EditBerry">
+                        <input type="hidden" name="BerryId" id="editBerryId" />
+                        <div class="form-group">
+                            <label for="editName">Name</label>
+                            <input type="text" name="Name" id="editName" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="editDescription">Description</label>
+                            <input type="text" name="Description" id="editDescription" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="editPrice">Price</label>
+                            <input type="text" name="Price" id="editPrice" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="editImageUrl">Image URL</label>
+                            <input type="text" name="ImageUrl" id="editImageUrl" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="editImageThumbnailUrl">Image Thumbnail URL</label>
+                            <input type="text" name="ImageThumbnailUrl" id="editImageThumbnailUrl" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="editRecommendedRecipie">Recommended Recipe</label>
+                            <input type="text" name="RecommendedRecipie" id="editRecommendedRecipie" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="editInStock">In Stock</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="InStock" id="editInStock" class="form-check-input" />
+                                <label class="form-check-label" for="editInStock">In Stock?</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="editIsPopularBerry">Is Popular Berry</label>
+                            <div class="form-check">
+                                <input type="checkbox" name="IsPopularBerry" id="editIsPopularBerry" class="form-check-input" />
+                                <label class="form-check-label" for="editIsPopularBerry">Is Popular Berry?</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="editCategoryId">Category ID</label>
+                            <input type="text" name="CategoryId" id="editCategoryId" class="form-control" required />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="hideEditForm()">Cancel</button>
+                    <button type="submit" form="editForm" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    //Button to display create berry form when clicked
+    <button id="createButton" class="btn btn-primary" onclick="showCreateForm()" style="margin-top: 50px;">Create Berry</button>
+    
+    <!--Titles for table-->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Image URL</th>
+                <th>Image Thumbnail URL</th>
+                <th>Recommended Recipe</th>
+                <th>In Stock</th>
+                <th>Is Popular Berry</th>
+                <th>Category ID</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <!--Sections for table-->
+        <tbody>
+            @if (Model != null)
+            {
+                @foreach (var berry in Model)
+                {
+                    <tr id="berryRow-@berry.BerryId">
+                        <td>
+                            @(
+                                berry?.Name ?? ""
+                                )
+                        </td>
+                        <td>
+                            @(
+                                berry?.Description ?? ""
+                                )
+                        </td>
+                        <td>
+                            @(
+                                berry.Price == 0 ? "" : berry.Price.ToString()
+                                )
+                        </td>
+
+
+                        <td>
+                            @(
+                                berry?.ImageUrl ?? ""
+                                )
+                        </td>
+                        <td>
+                            @(
+                                berry?.ImageThumbnailUrl ?? ""
+                                )
+                        </td>
+                        <td>
+                            @(
+                                berry?.RecommendedRecipie ?? ""
+                                )
+                        </td>
+                        <td>
+                            @(
+                                berry?.InStock == true ? "Yes" : "No"
+                                )
+                        </td>
+                        <td>
+                            @(
+                                berry?.IsPopularBerry == true ? "Yes" : "No"
+                                )
+                        </td>
+                        <td>
+                            @(
+                                berry.CategoryId == 0 ? "" : berry.CategoryId.ToString()
+                                )
+                        </td>
+
+
+                        <td>
+                            <button class="btn btn-primary" onclick="showEditForm('@berry.BerryId')">Edit</button>
+
+                            <form method="post" asp-action="DeleteBerry" asp-route-id="@berry.BerryId" style="display:inline;">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <p>No data</p>
+            }
+        </tbody>
+    </table>
+
+
+    <!--JavaScript to handle modals and modify table-->
+    <script>
+        function showCreateForm() {
+            $('#createModal').modal('show');
+        }
+
+        function hideCreateForm() {
+            $('#createModal').modal('hide');
+        }
+
+        function populateEditForm(berryId) {
+            //Fetching berry data based on the row ID
+            var berryRow = document.getElementById("berryRow-" + berryId);
+
+            //Populating the edit form fields
+            $('#editBerryId').val(berryId);
+            $('#editName').val(berryRow.cells[0].innerText);
+            $('#editDescription').val(berryRow.cells[1].innerText);
+            $('#editPrice').val(berryRow.cells[2].innerText);
+            $('#editImageUrl').val(berryRow.cells[3].innerText);
+            $('#editImageThumbnailUrl').val(berryRow.cells[4].innerText);
+            $('#editRecommendedRecipie').val(berryRow.cells[5].innerText);
+            $('#editInStock').prop('checked', berryRow.cells[6].innerText === "Yes");
+            $('#editIsPopularBerry').prop('checked', berryRow.cells[7].innerText === "Yes");
+            $('#editCategoryId').val(berryRow.cells[8].innerText);
+        }
+
+
+
+        function showEditForm(berryId) {
+            populateEditForm(berryId);
+            $('#editModal').modal('show');
+        }
+        function hideEditForm() {
+            $('#editModal').modal('hide');
+        }
+
+        $(document).ready(function () {
+        });
+
+        function validateCreateForm() {
+            //Getting form inputs
+            var name = document.getElementById('Name').value;
+            var description = document.getElementById('Description').value;
+            var price = document.getElementById('Price').value;
+            var imageUrl = document.getElementById('ImageUrl').value;
+            var imageThumbnailUrl = document.getElementById('ImageThumbnailUrl').value;
+            var recommendedRecipie = document.getElementById('RecommendedRecipie').value;
+            var categoryId = document.getElementById('CategoryId').value;
+
+            //Getting checkbox inputs
+            var inStock = document.getElementById('createInStock').checked;
+            var isPopularBerry = document.getElementById('createIsPopularBerry').checked;
+
+            //Checking if any required fields are empty
+            if (!name.trim() || !description.trim() || !price.trim() || !imageUrl.trim() || !imageThumbnailUrl.trim() || !recommendedRecipie.trim() || !categoryId.trim()) {
+                alert('Please fill out all fields.');
+                return false; // Prevent form submission
+            }
+
+            //Checking if price is a valid number
+            if (isNaN(price) || parseFloat(price) <= 0) {
+                alert('Please enter a valid price.');
+                return false; // Prevent form submission
+            }
+
+            //Checking if category ID is one of the specified numbers
+            if (![10, 19, 20, 21].includes(parseInt(categoryId))) {
+                alert('Please enter a valid Category ID (10 for Autumn, 19 for Summer, 20 for Winter, or 21 for Spring).');
+                return false; // Prevent form submission
+            }
+
+            //Checking and setting checkbox values depending if they've been selected or not
+            if (inStock) {
+                document.getElementById('createInStock').value = true;
+            } else {
+                document.getElementById('createInStock').value = false;
+            }
+
+            if (isPopularBerry) {
+                document.getElementById('createIsPopularBerry').value = true;
+            } else {
+                document.getElementById('createIsPopularBerry').value = false;
+            }
+
+            //To allow form to be submitted
+            return true; 
+        }
+
+        function validateEditForm() {
+            //Getting form inputs
+            var name = document.getElementById('editName').value;
+            var description = document.getElementById('editDescription').value;
+            var price = document.getElementById('editPrice').value;
+            var imageUrl = document.getElementById('editImageUrl').value;
+            var imageThumbnailUrl = document.getElementById('editImageThumbnailUrl').value;
+            var recommendedRecipie = document.getElementById('editRecommendedRecipie').value;
+            var categoryId = document.getElementById('editCategoryId').value;
+
+            //Getting checkbox inputs
+            var inStock = document.getElementById('editInStock').checked;
+            var isPopularBerry = document.getElementById('editIsPopularBerry').checked;
+
+            //Checking if any required fields are empty
+            if (!name.trim() || !description.trim() || !price.trim() || !imageUrl.trim() || !imageThumbnailUrl.trim() || !recommendedRecipie.trim() || !categoryId.trim()) {
+                alert('Please fill out all fields.');
+                return false; 
+            }
+
+            //Checking if price is a valid number
+            if (isNaN(price) || parseFloat(price) <= 0) {
+                alert('Please enter a valid price.');
+                return false; 
+            }
+
+            //Checking if category ID is one of the specified numbers
+            if (![10, 19, 20, 21].includes(parseInt(categoryId))) {
+                alert('Please enter a valid Category ID (10 for Autumn, 19 for Summer, 20 for Winter, or 21 for Spring).');
+                return false; 
+            }
+
+            //Checking and setting checkbox values depending if they've been selected or not
+            if (inStock) {
+                document.getElementById('editInStock').value = true;
+            } else {
+                document.getElementById('editInStock').value = false;
+            }
+
+            if (isPopularBerry) {
+                document.getElementById('editIsPopularBerry').value = true;
+            } else {
+                document.getElementById('editIsPopularBerry').value = false;
+            }
+
+            //To allow form to be submitted
+            return true; 
+        }
+
+    </script>
+}
+//Text to prevent unauthorized user from entering Admin page
+else
+{
+    <h1 style="text-align:center; padding-top: 50px;">You are not authorized to access this page.</h1>
+}
